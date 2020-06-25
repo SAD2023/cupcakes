@@ -1,0 +1,192 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+    background-color: #FFF8DC;
+}
+
+.grid {
+    height: 1000px;
+    display: grid;
+    grid-template-areas: "header"
+                         "description"
+                         "cupcakes"
+                         "footer";
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    
+}
+
+.header {
+    grid-area: header;
+}
+
+.headercupcakes{
+    text-align: center;
+}
+
+
+.mainheading {
+    font-family: 'Open Sans Condensed', sans-serif;
+    display: inline-block;
+    width: 50%;
+    font-size: 13vh;
+    text-align: center;
+    font-style: lighter;
+    margin: 0 auto;
+    color: #5F9EA0;
+}
+
+.item {
+    display: inline-block;
+    float: left;
+    margin-top: 2%;
+    margin-left: 5%;
+}
+
+.leftItem {
+    display: inline-block;
+    float: right;
+    margin-top: 2%;
+    margin-right: 5%;
+}
+.item, .leftItem {
+    color: #BC8F8F;
+}
+.img1 {
+    display:inline-block;
+    width: 30%;
+    height: 20%;
+}
+
+#goldenCupcake {
+    float: left;
+    margin-left: 10%;
+    margin-top: 5%;
+}
+
+#chocCupcake {
+    margin-right: 10%;
+    float: right;
+    margin-top: 5%;
+}
+
+
+
+.vl {
+  border-left: 6px solid green;
+  height: 100%;
+  position: absolute;
+  left: 50%;
+  margin-left: -3px;
+  top: 20%;
+}
+
+.cap1 {
+    display: inline-block;
+    float: left;
+    margin-top: 33%;
+    margin-left: 10%;
+
+}
+
+div.raspberry {
+  float: right;
+  margin: 2px;
+}
+
+div p {
+  text-align: center;
+  color: #808000;
+  font-family: 'Inconsolata', monospace;
+}
+
+.more {
+    display: inline-block;
+    width: 30%;
+    height: 30%;
+    text-align: center;
+    margin: 0 auto;
+}
+.description {
+    grid-area: description;
+    height: 550px;
+}
+
+div.title{
+    text-align: center;
+    border: 1px solid black;
+    display: inline-block;
+    width: 60%;
+    left: 50%;
+    margin: 2% auto;
+    background-color: #B0E0E6;
+}
+h1.title {
+    display: inline-block;
+    text-align: center;
+    margin-top: 3%;
+    color: #663399;
+}
+p.about {
+    margin-top: 2%;
+    margin-left: 2%;
+    margin-right: 2%;
+    margin-bottom: 2%;
+    font-size: 30px;
+    color:#800080;
+}
+
+
+.cupcakes {
+    grid-area: cupcakes;
+    height: 400px;
+}
+div.locations {
+    text-align: center;
+    display: inline-block;
+    width: 60%;
+    left: 50%;
+    margin: 2% auto;
+    background: white;
+}
+
+h1.locations {
+    display: inline-block;
+    text-align: center;
+    margin-top: 3%;
+    margin-bottom: 3%;
+    color: #DC143C;
+}
+
+a.list {
+    margin-bottom:
+    border: 1px solid black;
+}
+
+h2.list {
+    color: #800000;
+}
+.footer {
+    grid-area: footer;
+    height: 200px;
+    background: #2F4F4F;
+}
+
+div.contact {
+    text-align: center;
+    display: inline-block;
+    width: 60%;
+    left: 50%;
+    margin: 1% auto;
+    color: #FFFAF0;
+}
+
+h2.contact {
+    display: inline-block;
+    text-align: center;
+    margin-top: 3%;
+    margin-bottom: 3%;
+    color: #FFFAF0;
+}
